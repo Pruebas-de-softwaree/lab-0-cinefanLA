@@ -33,4 +33,22 @@ if __name__ == "__main__":
 
     print("end test")
 
+    print("add(2,3)", add(2,3), "esperado: 5")
+
+    print("subtract(5,3)", subtract(5,3), "esperado: 2")
+
+    print("multiply(4,6)", multiply(4,6), "esperado: 24")
+
+    print("divide(10,2)", divide(10,2), "esperado: 5")
+
+    print("square_root(4)", square_root(4), "esperado: 2")
+
+    print("maximum([3,7,1])", maximum([3,7,1]), "esperado: 7") 
+
+    print(maximum([]))
+
+
+
+
+
     
