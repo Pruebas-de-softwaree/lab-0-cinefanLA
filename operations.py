@@ -88,6 +88,16 @@ try:
 except Exception as e:
     print("square_root(-4) lanzó:", type(e).__name__, e)
 
+try:
+    print("square_root('9') =>", square_root('9'))    # Esperado: rechazo claro por tipo
+except Exception as e:
+    print("square_root('9') lanzó:", type(e).__name__, e)
+
+# average(lista)
+try:
+    print("average([]) =>", average([]))              # Esperado: manejo definido (no ZeroDivisionError)
+except Exception as e:
+    print("average([]) lanzó:", type(e).__name__, e)
 
 
 
