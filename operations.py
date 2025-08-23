@@ -45,7 +45,15 @@ if __name__ == "__main__":
 
     print("maximum([3,7,1])", maximum([3,7,1]), "esperado: 7") 
 
-    print(maximum([]))
+   # add(a, b) sumar
+print("add('2','3') =>", add('2','3'))          # Esperado: 5 (suma numérica) | Obtenido: '23'
+print("add([1],[2]) =>", add([1],[2]))          # Esperado: error por tipos no numéricos | Obtenido: [1, 2]
+
+
+
+
+
+    
 
 
 
