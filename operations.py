@@ -108,7 +108,10 @@ except Exception as e:
 # maximum(lista)
 print("maximum([1,5,3]) =>", maximum([1,5,3]))        # Esperado: 5 | Obtenido: 1 (usa min)
 
-
+try:
+    print("maximum([]) =>", maximum([]))              # Esperado: manejo definido (no ValueError)
+except Exception as e:
+    print("maximum([]) lanzó:", type(e).__name__, e)
 
 
     
