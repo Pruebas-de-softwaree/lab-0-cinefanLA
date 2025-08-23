@@ -60,3 +60,16 @@ try:
 except Exception as e:
     print("subtract(None,1) lanzó:", type(e).__name__, e)
 
+# multiply(a, b) multiplicar
+
+print("multiply('a',3) =>", multiply('a',3))          # 
+
+
+
+    
+
+
+
+
+
+    
