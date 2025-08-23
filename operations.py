@@ -65,3 +65,14 @@ except Exception as e:
 print("multiply('a',3) =>", multiply('a',3))          # 
 print("multiply(1e308,1e308) =>", multiply(1e308,1e308))  #
 
+# divide(a, b) dividir
+try:
+    print("divide(5,0) =>", divide(5,0))            
+except Exception as e:
+    print("divide(5,0) lanzó:", type(e).__name__, e)
+
+
+
+
+
+    
