@@ -72,6 +72,19 @@ except Exception as e:
     print("divide(5,0) lanzó:", type(e).__name__, e)
 
 
+try:
+    print("divide('10',2) =>", divide('10',2))        
+except Exception as e:
+    print("divide('10',2) lanzó:", type(e).__name__, e)
+
+
+
+
+
+
+    
+
+
 
 
 
