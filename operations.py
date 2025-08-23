@@ -100,6 +100,11 @@ except Exception as e:
     print("average([]) lanzó:", type(e).__name__, e)
 
 
+try:
+    print("average([1,'2',3]) =>", average([1,'2',3]))  # validación/mensaje claro
+except Exception as e:
+    print("average([1,'2',3]) lanzó:", type(e).__name__, e)
+
 
 
 
