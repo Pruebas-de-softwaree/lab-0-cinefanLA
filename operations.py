@@ -55,10 +55,8 @@ try:
 except Exception as e:
     print("subtract('5','2') lanzó:", type(e).__name__, e)
 
+try:
+    print("subtract(None,1) =>", subtract(None,1))  
+except Exception as e:
+    print("subtract(None,1) lanzó:", type(e).__name__, e)
 
-
-
-
-
-
-    
