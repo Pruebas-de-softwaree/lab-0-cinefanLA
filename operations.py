@@ -105,6 +105,8 @@ try:
 except Exception as e:
     print("average([1,'2',3]) lanzó:", type(e).__name__, e)
 
+# maximum(lista)
+print("maximum([1,5,3]) =>", maximum([1,5,3]))        # Esperado: 5 | Obtenido: 1 (usa min)
 
 
 
