@@ -77,6 +77,18 @@ try:
 except Exception as e:
     print("divide('10',2) lanzó:", type(e).__name__, e)
 
+# potencia” (a^b esperado)
+print("power(2,3) =>", power(2,3))                    # Esperado: 8 | Obtenido: 1 (usa XOR ^)
+
+print("power(5,0) =>", power(5,0))                    # Esperado: 1 | Obtenido: 5 (a ^ 0 = a)
+
+# square_root(x)raíz cuadrada
+try:
+    print("square_root(-4) =>", square_root(-4))      #
+except Exception as e:
+    print("square_root(-4) lanzó:", type(e).__name__, e)
+
+
 
 
 
